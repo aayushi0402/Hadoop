@@ -1,2 +1,2 @@
 # Hadoop
-This repository contains information, installation steps, programs related to Hadoop.
+This repository contains information, installation steps, and programs related to Hadoop.
