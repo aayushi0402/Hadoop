@@ -48,7 +48,7 @@ tar xzf hadoop-3.2.2.tar.gz
 ```
 sudo nano .bashrc
 #The bashrc opens for editing
-export HADOOP_HOME=/home/hadoopuser/hadoop-3.2.2
+export HADOOP_HOME=/home/hadoopuser/hadoop-3.2.1
 export HADOOP_INSTALL=$HADOOP_HOME
 export HADOOP_MAPRED_HOME=$HADOOP_HOME
 export HADOOP_COMMON_HOME=$HADOOP_HOME
@@ -155,4 +155,19 @@ hadoop fs -mkdir /HadoopStorageTest/Test.txt
 hadoop fs -ls /HadoopStorageTest/
 ```
 
-## You are all set to go!
+## Compiling and Creating JAR Files
+ 
+ ```sh
+ #Setting the path for the hadoop classpath
+ export HADOOP_CLASSPATH=$(hadoop classpath)
+ 
+ # Compiling your java program file(that contains Mapper, Reducer and Driver class all in one file) and placing the output of the classes in a folder named /classes in your local directory
+ 
+ sudo javac -classpath ${HADOOP_CLASSPATH} -d '/home/aayushi/Documents/Hadoop/DinosaurAnalysis/classes' '/home/aayushi/Documents/Hadoop/DinosaurAnalysis/Dino.java'
+ 
+ # Creating JAR from the classes folder
+ sudo jar -cvf Dino.jar -C '/home/aayushi/Documents/Hadoop/DinosaurAnalysis/classes' .
+ 
+ # Running the JAR file
+ hadoop jar '/home/aayushi/Documents/Hadoop/DinosaurAnalysis/Dino.jar' Dino /DinoAnalysis/Input /DinoAnalysis/Output
+ ```
