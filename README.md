@@ -1,6 +1,7 @@
 # APACHE HADOOP & PIG
 
 Hadoop Documentation: https://hadoop.apache.org/
+Pig Documentation : https://pig.apache.org/
 
 - To know about the Hadoop Architecture
 - See handy Hadoop commands
