@@ -1,4 +1,4 @@
-# APACHE HADOOP
+# APACHE HADOOP & PIG
 
 Hadoop Documentation: https://hadoop.apache.org/
 
@@ -171,3 +171,51 @@ hadoop fs -ls /HadoopStorageTest/
  # Running the JAR file
  hadoop jar '/home/aayushi/Documents/Hadoop/DinosaurAnalysis/Dino.jar' Dino /DinoAnalysis/Input /DinoAnalysis/Output
  ```
+
+## Pig Installation Guide
+Once you have installed Hadoop on your system, you can install and run Pig scripts.
+Note: I am going to install Pig for the user 'hadoopuser' that I created while installing Hadoop. You can create it on your main user as well.
+
+1. Make and Download Pig Folder and Files
+```sh
+#Need sudo since I am creating and downloading files in hadoopuser
+sudo mkdir pig
+cd pig/
+sudo wget https://downloads.apache.org/pig/pig-0.17.0/pig-0.17.0.tar.gz
+```
+2. Untar the TAR file
+```sh
+tar -xvf pig-0.17.0.tar.gz
+```
+3. Shift pwd to access .bashrc
+```sh
+cd
+nano .bashrc
+```
+4. Add Pig configuration variables to your .bashrc files. Make sure to change lines 4 & 5 to match your pig directory location
+```sh
+#JAVA_HOME
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+#Apache Pig Environment Variables
+export PIG_HOME=/home/aayushi/pig/pig-0.17.0
+export PATH=$PATH:/home/aayushi/pig/pig-0.17.0/bin
+export PIG_CLASSPATH=$HADOOP_HOME/conf
+```
+5. Source the .bashrc file
+```sh
+source .bashrc
+```
+6. Check if pig is working
+```sh
+pig -version
+```
+If you obtain the below prompt on the version command you have successfully installed Pig.
+```sh
+Apache Pig version 0.17.0 (r1797386) 
+compiled Jun 02 2017, 15:41:58
+```
+7. Open grunt shell on pig local mode
+```sh
+pig -x local
+```
+![image](https://user-images.githubusercontent.com/34810569/164979792-b9c3929c-6005-4029-a6ad-081d7b00fb79.png)
