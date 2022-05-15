@@ -1,0 +1,35 @@
+﻿1001,Kelly,Dept. Of Statistics,M.Sc Data Science,Statistics,94,Science
+1002,Josh,Dept. Of Statistics,M.Sc Data Science,Statistics,85,Science
+1003,Hannah,Dept. Of Statistics,M.Sc Data Science,Statistics,97,Science
+1004,Zack,Dept. Of Statistics,M.Sc Data Science,Statistics,84,Science
+1005,Cody,Dept. Of Statistics,M.Sc Data Science,Statistics,74,Science
+1001,Kelly,Dept. Of Mathematics,M.Sc Data Science,Mathematics,90,Science
+1002,Josh,Dept. Of Mathematics,M.Sc Data Science,Mathematics,88,Science
+1003,Hannah,Dept. Of Mathematics,M.Sc Data Science,Mathematics,71,Science
+1004,Zack,Dept. Of Mathematics,M.Sc Data Science,Mathematics,82,Science
+1005,Cody,Dept. Of Mathematics,M.Sc Data Science,Mathematics,77,Science
+2001,Ben,Dept. Of Computer Science,M.Sc Data Analytics,Machine Learning,92,Science
+2002,Jake,Dept. Of Computer Science,M.Sc Data Analytics,Machine Learning,86,Science
+2003,Raven,Dept. Of Computer Science,M.Sc Data Analytics,Machine Learning,79,Science
+2004,Gordon,Dept. Of Computer Science,M.Sc Data Analytics,Machine Learning,72,Science
+2005,Ramsay,Dept. Of Computer Science,M.Sc Data Analytics,Machine Learning,67,Science
+2001,Ben,Dept. Of Computer Science,M.Sc Data Analytics,Data Mining,67,Science
+2002,Jake,Dept. Of Computer Science,M.Sc Data Analytics,Data Mining,79,Science
+2003,Raven,Dept. Of Computer Science,M.Sc Data Analytics,Data Mining,70,Science
+2004,Gordon,Dept. Of Computer Science,M.Sc Data Analytics,Data Mining,84,Science
+2005,Ramsay,Dept. Of Computer Science,M.Sc Data Analytics,Data Mining,76,Science
+3001,Nike,Dept. Of Economics,M.Sc Economics,Microeconomics,72,Arts
+3002,Athena,Dept. Of Economics,M.Sc Economics,Microeconomics,68,Arts
+3003,Kratos,Dept. Of Economics,M.Sc Economics,Microeconomics,73,Arts
+3004,Ramirez,Dept. Of Economics,M.Sc Economics,Microeconomics,82,Arts
+3005,Medusa,Dept. Of Economics,M.Sc Economics,Microeconomics,77,Arts
+3001,Nike,Dept. Of Political Science,MA Economics,International Politics,80,Arts
+3002,Athena,Dept. Of Political Science,MA Economics,International Politics,81,Arts
+3003,Kratos,Dept. Of Political Science,MA Economics,International Politics,61,Arts
+3004,Rami,Dept. Of Political Science,MA Economics,International Politics,62,Arts
+3005,Medusa,Dept. Of Political Science,MA Economics,International Politics,99,Arts
+4001,Adam,Dept. Of History,MA History,History of Politics,88,Arts
+4002,Kevin,Dept. Of History,MA History,History of Politics,84,Arts
+4003,Steve,Dept. Of History,MA History,History of Politics,65,Arts
+4004,Pam,Dept. Of History,MA History,History of Politics,53,Arts
+4005,Lola,Dept. Of History,MA History,History of Politics,99,Arts
